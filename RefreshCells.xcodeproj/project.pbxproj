@@ -21,6 +21,7 @@
 		93E2E88F199D060C0026AF4F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E2E871199D060C0026AF4F /* UIKit.framework */; };
 		93E2E897199D060C0026AF4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93E2E895199D060C0026AF4F /* InfoPlist.strings */; };
 		93E2E899199D060C0026AF4F /* RefreshCellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E2E898199D060C0026AF4F /* RefreshCellsTests.m */; };
+		93E2E8B0199D27510026AF4F /* GameConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E2E8AF199D27510026AF4F /* GameConsole.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		93E2E894199D060C0026AF4F /* RefreshCellsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RefreshCellsTests-Info.plist"; sourceTree = "<group>"; };
 		93E2E896199D060C0026AF4F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93E2E898199D060C0026AF4F /* RefreshCellsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshCellsTests.m; sourceTree = "<group>"; };
+		93E2E8AE199D27510026AF4F /* GameConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConsole.h; sourceTree = "<group>"; };
+		93E2E8AF199D27510026AF4F /* GameConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameConsole.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				93E2E87F199D060C0026AF4F /* Main.storyboard */,
 				93E2E882199D060C0026AF4F /* ViewController.h */,
 				93E2E883199D060C0026AF4F /* ViewController.m */,
+				93E2E8AE199D27510026AF4F /* GameConsole.h */,
+				93E2E8AF199D27510026AF4F /* GameConsole.m */,
 				93E2E885199D060C0026AF4F /* Images.xcassets */,
 				93E2E874199D060C0026AF4F /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93E2E884199D060C0026AF4F /* ViewController.m in Sources */,
+				93E2E8B0199D27510026AF4F /* GameConsole.m in Sources */,
 				93E2E87E199D060C0026AF4F /* AppDelegate.m in Sources */,
 				93E2E87A199D060C0026AF4F /* main.m in Sources */,
 			);
@@ -456,6 +462,7 @@
 				93E2E89E199D060C0026AF4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93E2E89F199D060C0026AF4F /* Build configuration list for PBXNativeTarget "RefreshCellsTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				93E2E8A1199D060C0026AF4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
