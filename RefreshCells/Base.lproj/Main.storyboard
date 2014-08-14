@@ -36,9 +36,6 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="customCell" destination="n14-wm-mRB" id="pVB-vI-oaO"/>
-                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -50,7 +47,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="myLabel" destination="n14-wm-mRB" id="7FK-Bi-RHX"/>
                         <outlet property="myTableView" destination="TLl-Aa-mYX" id="sYn-kf-14b"/>
                     </connections>
                 </viewController>
