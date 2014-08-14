@@ -22,6 +22,7 @@
 		93E2E897199D060C0026AF4F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93E2E895199D060C0026AF4F /* InfoPlist.strings */; };
 		93E2E899199D060C0026AF4F /* RefreshCellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E2E898199D060C0026AF4F /* RefreshCellsTests.m */; };
 		93E2E8B0199D27510026AF4F /* GameConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E2E8AF199D27510026AF4F /* GameConsole.m */; };
+		93E2E8B6199D3DE20026AF4F /* CustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E2E8B5199D3DE20026AF4F /* CustomTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		93E2E898199D060C0026AF4F /* RefreshCellsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RefreshCellsTests.m; sourceTree = "<group>"; };
 		93E2E8AE199D27510026AF4F /* GameConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConsole.h; sourceTree = "<group>"; };
 		93E2E8AF199D27510026AF4F /* GameConsole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameConsole.m; sourceTree = "<group>"; };
+		93E2E8B4199D3DE20026AF4F /* CustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewCell.h; sourceTree = "<group>"; };
+		93E2E8B5199D3DE20026AF4F /* CustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				93E2E87C199D060C0026AF4F /* AppDelegate.h */,
 				93E2E87D199D060C0026AF4F /* AppDelegate.m */,
 				93E2E87F199D060C0026AF4F /* Main.storyboard */,
+				93E2E8B4199D3DE20026AF4F /* CustomTableViewCell.h */,
+				93E2E8B5199D3DE20026AF4F /* CustomTableViewCell.m */,
 				93E2E882199D060C0026AF4F /* ViewController.h */,
 				93E2E883199D060C0026AF4F /* ViewController.m */,
 				93E2E8AE199D27510026AF4F /* GameConsole.h */,
@@ -257,6 +262,7 @@
 				93E2E884199D060C0026AF4F /* ViewController.m in Sources */,
 				93E2E8B0199D27510026AF4F /* GameConsole.m in Sources */,
 				93E2E87E199D060C0026AF4F /* AppDelegate.m in Sources */,
+				93E2E8B6199D3DE20026AF4F /* CustomTableViewCell.m in Sources */,
 				93E2E87A199D060C0026AF4F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

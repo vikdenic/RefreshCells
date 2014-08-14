@@ -15,7 +15,7 @@
     GameConsole *newGameConsole = [GameConsole new];
     newGameConsole.image = image;
     newGameConsole.name = name;
-    newGameConsole.year = year;
+    newGameConsole.yearOfRelease = year;
 
     return newGameConsole;
 }

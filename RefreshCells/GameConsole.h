@@ -12,7 +12,7 @@
 
 @property UIImage *image;
 @property NSString *name;
-@property int year;
+@property int yearOfRelease;
 
 -(GameConsole *)initWithInfo:(UIImage *)image withName:(NSString *)name withYear:(int)year;
 
