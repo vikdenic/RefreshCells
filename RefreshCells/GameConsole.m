@@ -10,4 +10,14 @@
 
 @implementation GameConsole
 
+-(GameConsole *)initWithInfo:(UIImage *)image withName:(NSString *)name withPrice:(NSInteger *)price
+{
+    GameConsole *newGameConsole = [GameConsole new];
+    newGameConsole.image = image;
+    newGameConsole.name = name;
+    newGameConsole.price = price;
+
+    return newGameConsole;
+}
+
 @end

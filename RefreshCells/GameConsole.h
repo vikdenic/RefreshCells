@@ -14,4 +14,6 @@
 @property NSString *name;
 @property NSInteger *price;
 
+-(GameConsole *)initWithInfo:(UIImage *)image withName:(NSString *)name withPrice:(int)price;
+
 @end
