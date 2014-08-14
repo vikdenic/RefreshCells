@@ -10,12 +10,12 @@
 
 @implementation GameConsole
 
--(GameConsole *)initWithInfo:(UIImage *)image withName:(NSString *)name withPrice:(NSInteger *)price
+-(GameConsole *)initWithInfo:(UIImage *)image withName:(NSString *)name withYear:(int)year
 {
     GameConsole *newGameConsole = [GameConsole new];
     newGameConsole.image = image;
     newGameConsole.name = name;
-    newGameConsole.price = price;
+    newGameConsole.year = year;
 
     return newGameConsole;
 }

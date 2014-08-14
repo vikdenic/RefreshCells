@@ -21,9 +21,9 @@
 
 -(void)viewDidLoad
 {
-    GameConsole *xbox = [[GameConsole new] initWithInfo:[UIImage imageNamed:@"xbox" ] withName:@"Xbox" withPrice:100];
-    GameConsole *n64 = [[GameConsole new] initWithInfo:[UIImage imageNamed:@"ps2" ] withName:@"PS2" withPrice:100];
-    GameConsole *ps2 = [[GameConsole new] initWithInfo:[UIImage imageNamed:@"n64" ] withName:@"N64" withPrice:100];
+    GameConsole *xbox = [[GameConsole new] initWithInfo:[UIImage imageNamed:@"xbox" ] withName:@"Xbox" withYear:2001];
+    GameConsole *n64 = [[GameConsole new] initWithInfo:[UIImage imageNamed:@"ps2" ] withName:@"PS2" withYear:1996];
+    GameConsole *ps2 = [[GameConsole new] initWithInfo:[UIImage imageNamed:@"n64" ] withName:@"N64" withYear:2000];
 
     self.gameConsoleArray = [NSMutableArray arrayWithObjects:xbox, n64, ps2, nil];
 }

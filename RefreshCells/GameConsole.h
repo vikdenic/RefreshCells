@@ -12,8 +12,8 @@
 
 @property UIImage *image;
 @property NSString *name;
-@property NSInteger *price;
+@property int year;
 
--(GameConsole *)initWithInfo:(UIImage *)image withName:(NSString *)name withPrice:(int)price;
+-(GameConsole *)initWithInfo:(UIImage *)image withName:(NSString *)name withYear:(int)year;
 
 @end
